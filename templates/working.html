@@ -18,72 +18,79 @@
       rel="canonical"
       href="https://getbootstrap.com/docs/4.0/examples/carousel/"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .btn {
+        background-image: linear-gradient(
+          to bottom left,
+          #a648d2,
+          #8337e3,
+          #4979f3,
+          #1ad2fb
+        );
+      }
+      h2 {
+        font-family: poppins, sans-serif;
+      }
+    </style>
   </head>
-  <body>
+  <body style="background-color: #e9ecef">
     <main role="main">
-      <section
-        class="jumbotron p-3 p-md-5 text-white rounded bg-dark text-center"
-      >
-        <div class="container">
-          <h1 class="jumbotron-heading">Chronic Kidney Disease Prediction</h1>
-          <p class="lead">
-            Chronic kidney disease (CKD) is one of the most critical health
-            problems due to its increasing prevalence. In this paper, we aim to
-            test the ability of machine learning algorithms for the prediction
-            of chronic kidney disease using the smallest subset of features
-          </p>
-          <p>
-            <a
-              href="https://www.mayoclinic.org/diseases-conditions/chronic-kidney-disease/symptoms-causes/syc-20354521"
-              class="btn btn-primary my-2"
-              >Read More about the Disease</a
-            >
-          </p>
-        </div>
-      </section>
-
-      <div class="row mb-2">
-        <div class="col-md-6">
+      <div class="row" style="margin-top: 35px">
+        <div class="col-lg-6">
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-primary"
                 >Machine Learning</strong
               >
               <h3 class="mb-0">
-                <a class="text-dark" href="#">Random Forest</a>
+                <a
+                  class="text-dark"
+                  href="https://orange3.readthedocs.io/projects/orange-visual-programming/en/latest/widgets/model/randomforest.html"
+                  target="_blank"
+                  >Random Forest</a
+                >
               </h3>
               <div class="mb-1 text-muted">For Regression & Classification</div>
               <p class="card-text mb-auto">
-                Random forest is a supervised learning algorithm. ... The
+                Random forest is a supervised machine learning algorithm. The
                 general idea of the bagging method is that a combination of
-                learning models increases the overall result. Put simply: random
-                forest builds multiple decision trees and merges them together
-                to get a more accurate and stable prediction.
+                learning models increases the overall result. Put that simply: a
+                random forest builds multiple decision trees and then merges
+                them together to get a more accurate and more stable prediction.
               </p>
-              <a href="#">Continue reading</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-success"
                 >Model & Algorithm</strong
               >
               <h3 class="mb-0">
-                <a class="text-dark" href="#">XGBoost</a>
+                <a
+                  class="text-dark"
+                  href="https://xgboost.readthedocs.io/en/stable/"
+                  target="_blank"
+                  >XGBoost</a
+                >
               </h3>
               <div class="mb-1 text-muted">Gradient Boosting Machine</div>
               <p class="card-text mb-auto">
-                XGBoost is an algorithm that has recently been dominating
-                applied machine learning and Kaggle competitions for structured
-                or tabular data. XGBoost is an implementation of gradient
-                boosted decision trees designed for speed and performance.
+                XGBoost is an optimized distributed gradient boosting library
+                designed to be highly efficient, flexible and portable. Recently
+                it has been dominating applied machine learning and Kaggle
+                competitions . XGBoost is an implementation of gradient boosted
+                decision trees designed for speed and performance.
               </p>
-              <a href="#">Continue reading</a>
             </div>
           </div>
         </div>
@@ -94,7 +101,7 @@
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
       <div class="container marketing">
-        <div class="row">
+        <div class="row" style="margin-top: 40px">
           <div class="col-lg-4">
             <img
               class="rounded-circle"
@@ -111,7 +118,11 @@
               about 1338 records of data in various categories.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
+              <a
+                class="btn btn-secondary"
+                href="https://www.kaggle.com/mansoordaku/ckdisease"
+                role="button"
+                target="_blank"
                 >View details &raquo;</a
               >
             </p>
@@ -134,7 +145,11 @@
               model.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
+              <a
+                class="btn btn-secondary"
+                href="https://orange3.readthedocs.io/projects/orange-visual-programming/en/latest/widgets/model/randomforest.html"
+                target="_blank"
+                role="button"
                 >View details &raquo;</a
               >
             </p>
@@ -156,7 +171,11 @@
               the Accuracy is <b>98%.</b> So far we achieved a Good accuracy.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#" role="button"
+              <a
+                class="btn btn-secondary"
+                href="https://xgboost.readthedocs.io/en/stable/"
+                role="button"
+                target="_blank"
                 >View details &raquo;</a
               >
             </p>
@@ -171,7 +190,7 @@
 
         <div class="row featurette">
           <div class="col-md-12">
-            <h2 class="featurette-heading">How it will works</h2>
+            <h2 class="featurette-heading">How it will work</h2>
             <p class="lead">
               This prediction will be used in healthcare Applications. As it was
               very important to predict weather the patient was having any
@@ -216,20 +235,14 @@
 
         <!-- /END THE FEATURETTES -->
       </div>
-      <!-- /.container -->
-      <section
-        class="jumbotron p-3 p-md-5 text-white rounded bg-dark text-center"
-      >
+
+      <section class="p-3 p-md-5 text-white rounded text-center">
         <div class="container">
-          <h1 class="jumbotron-heading">Chronic Kidney Disease Prediction</h1>
-          <p class="lead">
-            Chronic kidney disease (CKD) is one of the most critical health
-            problems due to its increasing prevalence. In this paper, we aim to
-            test the ability of machine learning algorithms for the prediction
-            of chronic kidney disease using the smallest subset of features
-          </p>
           <p>
-            <a href="{{ url_for('kidneyPage') }}" class="btn btn-primary my-2"
+            <a
+              href="https://github.com/Ayushrawat-cmd/web3-hackathon"
+              class="btn btn-primary my-2"
+              target="_blank"
               >Check out the Project</a
             >
           </p>
