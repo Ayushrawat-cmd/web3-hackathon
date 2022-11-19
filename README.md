@@ -3,16 +3,10 @@
 This webapp was developed using Flask Web Framework. The models used to predict the diseases were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme. The webapp can predict following Disease:
 
 - Chronic-Kidney-Disease-Prediction
-
-![image](https://user-images.githubusercontent.com/62790398/125474693-082d87df-953e-43d2-b175-08afd43ec9b0.png)
-
-![image](https://user-images.githubusercontent.com/62790398/125474884-71a047bf-2648-49ff-816d-907b1dc2b68a.png)
-
-![image](https://user-images.githubusercontent.com/62790398/125475302-8e02b5d8-d0b2-473b-b83e-f4d807dc0412.png)
-
-![image](https://user-images.githubusercontent.com/62790398/125475398-c9a38e88-7cf1-4c37-aec7-5669280f8a22.png)
-
-![image](https://user-images.githubusercontent.com/62790398/125475606-78b45b72-14d5-4399-bcf5-34f3a8bbb9ff.png)
+<img width="1440" alt="Screenshot 2022-11-19 at 18 42 03" src="https://user-images.githubusercontent.com/79196598/202855444-051fb8e8-4c89-4a5c-89bc-f96e7d60e1a0.png">
+<img width="1440" alt="Screenshot 2022-11-19 at 17 46 07" src="https://user-images.githubusercontent.com/79196598/202855370-9e4b978b-c52a-4eb6-84a8-450dbabbf12e.png">
+<img width="1440" alt="Screenshot 2022-11-19 at 18 31 50" src="https://user-images.githubusercontent.com/79196598/202855382-74844a02-e224-469e-8e42-fb398cb87d78.png">
+<img width="1440" alt="Screenshot 2022-11-19 at 18 33 18" src="https://user-images.githubusercontent.com/79196598/202855394-a117cbad-238f-4fac-ab47-619505c6b420.png">
 
 
 ## Steps to run this application in your system
@@ -51,7 +45,7 @@ The dataset were used from kaggle.
 
 ## I Hope this Will be Useful to practise the Machine Learning.
 - If you like this Project - Give me a Star⭐⭐
-- For more Intresting Project, Follow me in Github
-- [LinkedIN](https://linkedin.com/in/venkata-sreeram)
+- For more Intresting Project, Follow me on Github
+
 #### Best regards:
 ### WinArc😊
