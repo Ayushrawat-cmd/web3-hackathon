@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 from PIL import Image
-from tensorflow.keras.models import load_model
+#from tensorflow.keras.models import load_model
 
 
 app = Flask(__name__)
